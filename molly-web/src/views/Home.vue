@@ -1,18 +1,29 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HomeView />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import HomeView from "@/components/home/HomeView";
 
 export default {
   name: "Home",
-  components: {
-    HelloWorld
-  }
+  components: { HomeView },
+  created() {
+    // let storage = this.firebase.storage();
+    // storage
+    //   .child("resume.docx")
+    //   .getDownloadURL()
+    //   .then(function(url) {
+    //     var img = document.getElementById("myimg");
+    //     img.src = url;
+    //   })
+    //   .catch(function(error) {
+    //     // Handle any errors
+    //     console.log(error);
+    //   });
+  },
 };
 </script>
