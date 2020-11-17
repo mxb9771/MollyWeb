@@ -103,21 +103,21 @@ export default {
 }
 #about-container {
   height: 400px;
-  background-color: #b2bec3;
+  background-color: #fab1a0;
 }
 #contact-container {
   height: 200px;
-  background-color: #b2bec3;
+  background-color: #fab1a0;
   margin-top: 20px;
 }
 #resume-container {
-  background-color: #b2bec3;
+  background-color: #fab1a0;
   height: 620px;
 }
 .content-head-text {
   font-family: "Amatic SC";
   font-size: 300%;
-  color: #ff7675;
+  color: #e17055;
   font-weight: 600;
 }
 .default-text {
